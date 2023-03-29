@@ -70,8 +70,12 @@
             text-align: center;
         }
         .apropriado p{
-            margin: 5px;
+            text-align: justify;
             padding: 5px;
+            margin-bottom: 18px;
+        }
+        .img_acessibilidae{
+          margin: 5px;
         }
         .quemdeve{
             margin-top: 40px;
@@ -102,6 +106,13 @@
         }
         .title{
             padding-left: 20px;
+        }
+        .copy{
+          display: flex;
+          flex-direction: column;
+        }
+        .copy p{
+          padding: 5px;
         }
       }
 

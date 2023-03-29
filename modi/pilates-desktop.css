@@ -200,9 +200,7 @@ section .widget{
    display: flex;
    justify-content: center;
 }
-p#result{
 
-}
 .quemdeve{
     display: flex;
     color: var(--color3);
