@@ -16,7 +16,7 @@
     --cor-whatsapp:#34af23;
     --color-text: #5c5c5c;
     --color-footer: #000000df;
-    --font-size: clamp(4rem, 10vw + 0.1rem, 8rem);
+    --font-size: clamp(.5rem, 1.3rem + 0.1rem, 4rem);
 }
 /*
 header{
