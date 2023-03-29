@@ -77,7 +77,7 @@
                                     </div>
                                     <div class="apropriado">
                                             <h1>Lesionados</h1>
-                                        
+                                            <p id="result"></p>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae reprehenderit aperiam natus eius labore voluptas sunt officia non, suscipit nam maiores ipsam modi dignissimos. Temporibus eum cum est aperiam?</p>
                                     </div>
                                     
@@ -274,23 +274,7 @@
              </footer>
     
     <script>
-    const btnMobile = document.getElementById('btn-mobile');
-
-function toggleMenu(event) {
-  if (event.type === 'touchstart') event.preventDefault();
-  const nav = document.getElementById('nav');
-  nav.classList.toggle('active');
-  const active = nav.classList.contains('active');
-  event.currentTarget.setAttribute('aria-expanded', active);
-  if (active) {
-    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-  } else {
-    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
-  }
-}
-
-btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
+ 
 </script>
     <!--
     <script>
