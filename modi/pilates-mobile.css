@@ -62,14 +62,28 @@
             display: flex;
             flex-direction: column;
         }
-        .apropriado h1, p{
+        .apropriado h1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .apropriado p{
+            margin: 5px;
+            padding: 5px;
+        }
+
+        article{
             display: flex;
             flex-direction: column;
         }
+        .img_acessibilidae{
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
 
-
-
-
+        
 
 
 
