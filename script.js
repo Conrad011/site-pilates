@@ -36,3 +36,7 @@ btnMobile.addEventListener('touchstart', toggleMenu);
     result.innerText = `O tamanho de fonte do H1 é ${h1FontSize} e o p é ${pFontSize}`;
  };
  setInterval(checkSizes, 500)
+
+ /* navegacao do site */
+
+ 
