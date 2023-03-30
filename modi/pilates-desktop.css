@@ -16,7 +16,7 @@
     --cor-whatsapp:#34af23;
     --color-text: #5c5c5c;
     --color-footer: #000000df;
-    --font-size: clamp(.5rem, 1.3rem + 0.1rem, 4rem);
+    --font-size: clamp(.5rem, 1.1rem + 0.1rem, 4rem);
 }
 /*
 header{
@@ -110,22 +110,22 @@ section .banner_cabecalho{
     flex-direction: column;
 }
 section .banner_cabecalho h1{
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.736);
+    text-shadow: 1px 8px 8px rgba(0, 0, 0, 0.736);
     color: white;
-    font-size: var(--font-size);
-    /*
     font-size: 3em;
-    */
-   width: auto;
+    width: auto;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
 }
 section .banner_cabecalho p{
+    text-shadow: 1px 8px 8px rgba(0, 0, 0, 0.736);
     color: white;
-    font-size: var(--font-size);
-    /*
-    font-size: 20px;
-    */
+    font-size: 1.5em;
     width: auto;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
 }
 
 section .botoes{
@@ -238,6 +238,7 @@ section .widget{
     text-align: justify;
     margin-right: 10px;
     font-size: var(--font-size);
+    max-width: 500px;
 }
 .body{
     display: flex;
@@ -505,6 +506,10 @@ p.color_footer{
 }
 .copy a{
     text-decoration: none;
+    color: #fff;
+}
+.copy a:hover{
+    text-decoration: underline;
     color: #fff;
 }
 .escuro{
