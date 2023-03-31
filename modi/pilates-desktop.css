@@ -91,7 +91,7 @@ text-transform: uppercase;
 
 #banner{
     
-    display: none;
+    display: flex;
     justify-content: center;
     width: 100%;
     background: url('../imagens/teste.png') no-repeat top center;
