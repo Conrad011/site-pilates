@@ -58,7 +58,16 @@
           transform: rotate(-135deg);
           top: -7px;
         }
-        
+        #banner{
+    
+          display: none;
+          justify-content: center;
+          width: 100%;
+          background: url('../imagens/teste-mob.png') no-repeat top center;
+          background-position: top center;
+          background-size: cover;
+          height: 640px;
+      }
         .body{
             display: flex;
             flex-direction: column;
