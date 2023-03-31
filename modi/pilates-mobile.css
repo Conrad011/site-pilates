@@ -63,11 +63,18 @@
           display: flex;
           justify-content: center;
           width: 100%;
-          background: url('../imagens/teste-mob.png') no-repeat top center;
+          background: url('../imagens/mae-filha.jpg') no-repeat top center;
           background-position: top center;
           background-size: cover;
-          height: 640px;
+          height: 440px;
       }
+      section .botoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        align-items: end;
+        justify-content: left;
+    }
         .body{
             display: flex;
             flex-direction: column;
