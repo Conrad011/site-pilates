@@ -140,12 +140,26 @@
         .title{
             padding-left: 20px;
         }
+        
         .copy{
-          display: flex;
-          flex-direction: column;
-        }
-        .copy p{
-          padding: 5px;
-        }
+          background-color:#000000;
+          display: block;
+          justify-content: center;
+          padding: 20px;
+      }
+      .copy p{
+        
+          color: #fff;
+      }
+      .copy a{
+        margin: 0px;
+          font-size: 15px;
+          text-decoration: none;
+          color: #fff;
+      }
+      .copy a:hover{
+          text-decoration: underline;
+          color: #fff;
+      }
       }
 
