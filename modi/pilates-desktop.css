@@ -90,10 +90,11 @@ text-transform: uppercase;
 
 
 #banner{
+    
     display: flex;
     justify-content: center;
     width: 100%;
-    background: url('../imagens/mae-filha.jpg') no-repeat top center;
+    background: url('../imagens/teste.png') no-repeat top center;
     background-position: top center;
     background-size: cover;
     height: 640px;
@@ -129,7 +130,7 @@ section .banner_cabecalho p{
 }
 
 section .botoes{
-    display: none;
+    display: flex;
     flex-direction: column;
     margin-top: 30vh;
    align-items: end;
@@ -182,8 +183,21 @@ section .botoes{
     transition-duration: .3s;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.582);
 }
-
-
+.zap img{
+    max-width: 50px;
+    border-radius: 100%;
+}
+.zap{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 5px; 
+}
+.zap img:hover{
+    transform: translate(-4px, -4px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.582);
+}
 article{
     display: flex;
     
@@ -534,4 +548,31 @@ p.color_footer{
  .redes img{
     max-width: 40px;
     border-radius: 50%;
+ }
+
+ /* página Sobre*/
+
+ .sobre{
+    display: flex;
+    justify-content: center;
+ }
+ .sobre img{
+    display: none;
+    background-size: cover;
+    display: flex;
+    max-width: 300px;
+    max-height: 800px;
+   
+ }
+ .text-sobre{
+    max-width: 1000px;
+    padding: 20px;
+ }
+ .text-sobre h1{
+    font-size: var(--font-size);
+ }
+ .text-sobre p{
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: var(--font-size);
  }
