@@ -569,7 +569,10 @@ p.color_footer{
     padding: 20px;
  }
  .text-sobre h1{
-    font-size: var(--font-size);
+    color: white;
+    background: linear-gradient(to right, #498758, #619d693f, #fff);
+    padding: 10px;
+    border-radius: 5px;
  }
  .text-sobre p{
     line-height: 25px;
